@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BT5</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="for_form">
+<h1>Enter your data here</h1>
+<form>
+  <!-- full name -->
+  <div class="mb-3">
+    <label for="u_name" class="form-label">Full Name</label>
+    <input type="text" class="form-control u_name" id="u_name" name="u_name" required>
+  </div>
+  <!-- email -->
+  <div class="mb-3">
+    <label for="u_email" class="form-label">Email address</label>
+    <input type="email" class="form-control u_email" id="u_email" name="u_email" required>
+  </div>
+  <!-- password -->
+  <div class="mb-3">
+    <label for="u_password" class="form-label">Password</label>
+    <input type="password" class="form-control u_password" id="u_password" name="u_password" required>
+  </div>
+  <!-- courses -->
+  <div class="mb-3">
+    <label for="u_course" class="form-label">Choose your course carefully</label>
+  <select class="form-select u_course" name="u_course" id="u_course">
+      <option value="1">Web Design</option>
+      <option value="2">Web Development</option>
+      <option value="3" selected>Full Stack Web Development</option>
+  </select>
+  </div>
+  <!-- message -->
+  <div class="mb-3">
+    <label for="u_message" class="form-label">Your message</label>
+    <textarea class="form-control u_message" id="u_message" rows="3" name="u_message" required></textarea>
+  </div>
+<!-- upload a file -->
+  <div>
+    <label for="u_file" class="form-label">Upload your file</label>
+    <input class="form-control u_file" id="u_file" type="file">
+  </div>
+  <!-- checkbox -->
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <!-- submit -->
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
